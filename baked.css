@@ -1,0 +1,1237 @@
+/* baked css libary written by johnson chidubem on 27th august 2018  */
+
+
+.baked-wide {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/*fixed navbar starts here */
+
+.baked-sticky-navbar{
+
+    
+    position: fixed !important; /* Set the navbar to fixed position */
+    width: 100% !important;
+    
+}
+
+/* this fix content clashing when using baked sticky menue*/ /* add to component below menue if using fixed menue class */
+.baked-stickynav-mrg{
+
+margin-top: 60px !important;
+
+}
+
+/* users to add there own predefined color */
+
+.baked-sticky-navbar:hover{
+
+    /*predefinded by users */
+    background-color:rgba(221, 160, 221, 0.349);
+}
+
+/* ends here */
+
+/*baked sticky footer */
+.baked-sticky-footer {
+    position: fixed !important;
+    left: 0;
+    bottom: 0;
+    width: 100% !important;
+}
+/*end*/
+
+
+
+/* still under test for now
+.baked-boxed  {
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+*/
+
+
+
+/* specifies a row works based on flex box */
+
+.baked-row {
+  
+    display:flex;
+    width: 100% !important;
+    flex-direction:row;
+
+ }
+
+
+
+ /* specifies automatic sections coloums based on .baked-row */
+
+ .baked-sec{
+
+
+    padding-left:  60px;
+    padding-right: 60px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* remove letter spacing in consumers version*/
+    letter-spacing:0px;
+    font-size:auto;
+    
+     }
+
+     .baked-sec-fully-boxed{
+
+
+        padding-left:  90px;
+        padding-right: 90px;
+        margin-top: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* remove letter spacing in consumers version*/
+        letter-spacing:0px;
+        font-size:auto;
+        
+         }
+
+/* wide boxed grid layout */
+
+     .baked-wider{
+
+width: 100%;
+
+     }
+
+     .baked-space-down{
+
+margin-bottom: 10px;
+
+     }
+
+     .baked-space-top{
+
+        margin-top: 30px;
+
+     }
+
+
+.baked-align-cntr{
+
+text-align: center !important;
+
+}
+
+
+
+.baked-align-left{
+
+    text-align: left;
+    
+    }
+
+
+.baked-align-right{
+
+    text-align: right;
+    
+    }
+
+    .baked-margin-lft-100{
+
+margin-left: 100px;
+
+
+    }
+
+     /*end*/
+
+
+/* specifies view port */
+@-ms-viewport {
+    width: device-width;
+  }
+  
+
+
+  /* specifies body properties*/
+  body {
+
+    overflow-x:hidden;
+    margin: 0px;
+
+}
+
+
+/* baked scroller webkit re-design */
+
+
+/*for scrollerbar*/
+     /* width */
+     ::-webkit-scrollbar {
+        width: 3px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background:white; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background:blueviolet; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background:silver; 
+    }
+
+
+
+    /* baked fancy background colors to add to containers */
+
+
+    .fancy-plum {
+
+background-color: plum;
+width: initial !important;
+height: initial !important;
+    }
+
+
+    .fancy-purple {
+
+        background-color: purple;
+        width: initial !important;
+        height: initial !important;
+
+    }
+
+
+
+    .fancy-white{
+
+background-color: white;
+width: initial !important;
+height: initial !important;
+
+    }
+
+    .fancy-whitesmoke{
+
+background-color: whitesmoke;
+width: initial !important;
+height: initial !important;
+}
+
+
+.fancy-black{
+
+background-color: black;
+width: initial !important;
+height: initial !important;
+
+}
+
+.fancy-skyblue{
+
+background-color: skyblue;
+width: initial !important;
+height: initial !important;
+
+}
+
+.fancy-teal{
+
+background-color: teal;
+width: initial !important;
+height: initial !important;
+
+
+}
+
+.fancy-turquoise{
+
+    background-color: turquoise;
+    width: initial !important;
+height: initial !important;
+    
+}
+
+.fancy-grey{
+
+    background-color: grey;
+    width: initial !important;
+height: initial !important;
+}
+
+
+.fancy-silver{
+
+background-color: silver;
+width: initial !important;
+height: initial !important;
+}
+
+
+.fancy-pink{
+    background-color: pink;
+    width: initial !important;
+height: initial !important;
+}
+
+.fancy-red{
+
+    background-color: red;
+    width: initial !important;
+height: initial !important;
+
+}
+
+.fancy-transparent {
+
+    background-color: transparent !important;
+    width: initial !important;
+height: initial !important;
+
+}
+
+
+
+/* all button classes from default to fancy */
+
+
+.btn{
+
+
+background-color: skyblue;
+border: 0px solid skyblue ;
+width:fit-content !important;
+text-align: center !important;
+height:40px;
+font-size: 13px;
+font-weight: bold;
+color:white;
+
+
+}
+
+
+.fancy-btn-1{
+
+
+    background-color: plum;
+    border: 0px solid plum ;
+    border-radius: 4px;
+    width:fit-content !important;
+    text-align: center !important;
+    height:40px;
+    font-size: 13px;
+    font-weight: bold;
+    color:white;
+
+
+}
+
+
+.fancy-btn-2{
+
+
+    background-color:purple;
+    border: 0px solid purple;
+    border-radius: 25px;
+    width:fit-content !important;
+    text-align: center !important;
+    height:40px;
+    font-size: 13px;
+    font-weight: bold;
+    color:white;
+
+
+}
+
+/* all fancy buttons transparent */
+
+
+.fancy-btn-3-thin{
+
+
+    background-color:transparent !important;
+    border: 1px solid purple;
+    border-radius: 25px;
+    width:fit-content !important;
+    text-align: center !important;
+    height:40px;
+    font-size: 13px;
+    font-weight: bold;
+    color:inherit;
+
+
+}
+
+
+.fancy-btn-3-thick{
+
+
+    background-color:transparent !important;
+    border: 3px solid purple;
+    border-radius: 25px;
+    width:fit-content !important;
+    text-align: center !important;
+    height:40px;
+    font-size: 13px;
+    font-weight: bold;
+    color:inherit;
+}
+
+
+
+    .fancy-btn-4-thin{
+
+
+        background-color:transparent !important;
+        border: 1px solid plum ;
+        border-radius: 4px;
+        width:fit-content !important;
+        text-align: center !important;
+        height:40px;
+        font-size: 13px;
+        font-weight: bold;
+        color:inherit;
+    
+    
+    }
+
+
+
+
+    .fancy-btn-4-thick{
+
+
+        background-color:transparent !important;
+        border: 3px solid plum ;
+        border-radius: 4px;
+        width:fit-content !important;
+        text-align: center !important;
+        height:40px;
+        font-size: 13px;
+        font-weight: bold;
+        color:inherit;
+    
+    
+    }
+
+
+    .fancy-btn-5-thin{
+
+
+        background-color:transparent !important;
+        border: 1px solid skyblue ;
+        width:fit-content !important;
+        text-align: center !important;
+        height:40px;
+        font-size: 13px;
+        font-weight: bold;
+        color:inherit;
+        
+        
+        }
+
+
+
+
+
+    .fancy-btn-5-thick{
+
+
+        background-color:transparent !important;
+        border: 3px solid skyblue ;
+        width:fit-content !important;
+        text-align: center !important;
+        height:40px;
+        font-size: 13px;
+        font-weight: bold;
+        color:grey;
+        
+        
+        }
+
+
+
+/* responsive break point for mobile devices */
+
+        @media only screen and (min-width:320px) and (max-width:480px) {
+
+
+
+            .baked-wider{
+
+                width: fit-content !important;
+                
+                     }
+
+
+
+            .baked-sec{
+
+
+                padding-left:  30px;
+                padding-right: 30px;
+                margin-top: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                /* remove letter spacing in consumers version*/
+                letter-spacing:0px;
+                font-size:auto;
+                
+                 }
+            
+
+
+
+            .baked-row {
+  
+                display:flex;
+                width:100% !important;
+                flex-direction:column;
+            
+             }
+
+
+/* check for issues on baked twist on game mode mobile */
+
+             .baked-twist {
+  
+                display:flex;
+                width:fit-content !important;
+                flex-direction: column-reverse;
+            
+             }
+
+             /*end */
+
+             .baked-hide{
+
+                display: none !important;
+
+
+             }
+
+
+             .baked-sec-fully-boxed{
+
+
+                padding-left:  45px;
+                padding-right: 45px;
+                
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                /* remove letter spacing in consumers version*/
+                letter-spacing:0px;
+                font-size:auto;
+                
+                 }
+
+
+             /* added by user */
+             .baked-quote{
+
+
+                color: grey;
+                font-size: 10px !important;
+                font-weight: bolder;
+                font-family:inherit;
+                letter-spacing: 0px !important;
+                padding: 20px 20px 80px 20px !important;
+                
+                  }
+                  /* pls remove consumers version */
+                
+
+
+}
+
+
+
+/* responsive break point for mobile devices on vertical game mode */
+
+
+@media only screen and (min-width:568px) and (max-width:812px) {
+
+
+
+
+    .baked-wider{
+
+        width: fit-content !important;
+        
+             }
+    
+
+
+             .baked-hide{
+
+                display: none !important;
+
+
+             }
+
+
+
+
+            .baked-row {
+  
+                display:flex;
+                width:100% !important ;
+                flex-direction:column;
+            
+             }
+        
+
+             /* allows content appear side by side in mobile game mode */
+
+             .baked-row-overide{
+
+                display:flex;
+                width: 100%;
+                flex-direction:row !important;
+
+
+             }
+
+
+}
+
+
+
+
+
+/* components classes */
+
+/* image responsiveness */
+
+
+
+.baked-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .baked-img-thumbnail {
+    padding: 0.25rem;
+    background-color:transparent !important;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /* baked cards without background shadow */ 
+
+
+
+  .baked-card{
+
+
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 10px 20px 20px;
+    border: 2px solid silver ; 
+    
+      }
+    
+    
+    
+      .baked-card-1{
+    
+    
+        height: fit-content;
+        width: fit-content;
+        padding: 10px 10px 20px 20px;
+        border: 2px solid grey ;
+        border-radius: 0px 0px 0px 25px; 
+    
+    
+      }
+    
+    
+      .baked-card-2{
+    
+    
+        height: fit-content;
+        width: fit-content;
+        padding: 10px 10px 20px 20px;
+        border: 3px solid grey ;
+        border-radius: 0px 25px 0px 0px; 
+    
+    
+      }
+    
+    
+      .baked-card-no-brd{
+    
+    
+        height: fit-content;
+        width: fit-content;
+        padding: 10px 10px 20px 20px;
+        border: 0px transparent ;
+         
+      }
+    
+    
+    
+      .baked-card-default{
+    
+    
+        height: fit-content;
+        width: fit-content;
+        padding: 0px 0px 0px 0px;
+        border: 0px transparent ;
+        
+    }
+    
+    
+    .baked-card-fancyteal{
+    
+    
+        height: fit-content;
+        width: fit-content;
+        padding: 10px 10px 20px 20px;
+        border: 2px solid teal ;
+        
+    }
+    
+    
+    .baked-card-fancypurple{
+    
+    
+        height: fit-content;
+        width: fit-content;
+        padding: 10px 10px 20px 20px;
+        border: 2px solid purple ;
+        
+    }
+    
+    /* baked border designs */
+    .dotted {
+    
+    border: 2px dotted !important;
+    
+    }
+    
+    .outset {
+    
+        border: 2px outset !important;
+        
+        }
+    
+    .dashed {
+    
+        border: 2px dashed !important;
+        
+        }
+    
+        .inset {
+    
+            border: 2px inset !important;
+            
+            }
+    
+        
+    
+    
+    /* baked card with borders and fixed width */
+    
+    
+    .baked-card-border{
+    
+    height: fit-content;
+    width: fit-content !important;
+    box-shadow: 0 2px 2px 0 rgba(180, 179, 179, 0.281), 0 3px 10px 0 rgba(0, 0, 0, 0.123);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20% !important;
+    margin-bottom: 20% !important;    
+    
+    }
+    
+
+
+
+/* link decoration */
+
+
+
+.baked-span-footer{
+
+
+    padding-left: 30px;
+
+}
+
+
+.a-default{
+
+text-decoration-line: none !important;
+
+}
+
+
+a {
+
+
+text-decoration-line:none;
+
+
+}
+
+a:hover {
+
+text-decoration-line: line-through;
+
+
+}
+
+.a-fancy:hover{
+
+text-decoration-style: wavy;
+
+}
+
+.a-fancy-underline:hover{
+
+text-decoration-line: underline;
+
+
+}
+
+
+.cntr-menu{
+
+
+    display: flex;
+    margin-left: 80%;
+
+
+}
+
+
+
+
+/* for menue */
+
+/* -- */
+
+.baked-menu-fnt{
+
+    font-family: 'Ubuntu', sans-serif;
+    color:grey;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+
+.baked-menu-fnt:hover{
+
+color:rgb(156, 84, 223);
+text-decoration: none;
+   
+}
+
+
+.menu-footer{
+
+    font-family: 'Ubuntu', sans-serif;
+    color:grey;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 13px;
+
+}
+
+
+
+.menu-footer:hover{
+
+    color:rgb(156, 84, 223);
+    text-decoration-line: line-through;
+       
+    }
+
+    .dropdown-menu{
+
+background-color: rgb(156, 84, 223) !important ;
+
+
+}
+
+
+
+
+
+.menu-push{
+
+margin-left: 400px;
+
+}
+
+
+
+.btn:hover{
+
+background-color:rgb(156, 84, 223);
+
+
+}
+
+
+
+.navbar-brand{
+
+margin-left: 100px !important;
+
+}
+
+.navbar-toggler{
+
+background-color: transparent !important;
+border: transparent !important;
+color: rgb(156, 84, 223) !important;
+outline: none !important;
+}
+
+.navbar-toggler:hover {
+color: rgb(66, 183, 230) !important;
+
+
+}
+
+
+.baked-menu-space{
+
+    margin-left: 30px;
+
+}
+
+
+/* end */
+
+
+
+
+
+/* transparent border effect */
+
+.baked-brd{
+
+    border: 0px transparent !important;
+    height: fit-content !important;
+    width: fit-content !important;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: rgba(255, 255, 255, 0.774);
+    padding: 60px 60px 60px 60px;
+    
+    
+        }
+    
+    
+        .baked-brd:hover{
+    
+            border: 0px transparent !important;
+            height: fit-content !important;
+            width: fit-content !important;
+            background-color: rgba(243, 240, 240, 0.308);
+            color: black;
+            padding: 60px 60px 60px 60px;
+            
+            
+                }
+    
+    
+    /* end */
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+/* media query starts here  for normal mobile mode*/
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+
+
+
+    .menu-push{
+
+        margin-left: 20px !important;
+        margin-top: 20px !important;
+    
+        
+        }
+
+        .navbar-brand{
+
+            margin-left: 30px !important;
+            
+            }
+
+
+         
+
+        
+
+
+                
+
+}
+
+
+/*@ media query starts here for mobile mode game mode */
+
+@media only screen and (min-width:568px) and (max-width:812px) {
+
+
+    .menu-push{
+
+        margin-left: 70px !important;
+        margin-top: 20px !important;
+    
+        
+        }
+
+
+       
+
+
+
+
+
+             
+
+
+}
+
+
+
+/* media query for ipad and ipad pro on landscape mode */
+
+
+
+@media only screen and (min-height:1024px)  {
+
+
+
+
+
+
+
+
+.menu-push{
+
+    margin-left:inherit !important;
+    
+    }
+
+
+
+
+
+
+}
+
+
+/* for ipad menue only */
+
+@media only screen and (min-height:768px)  {
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+     .baked-card-border{
+    
+        height: fit-content;
+        width: fit-content !important;
+        box-shadow: 0 2px 2px 0 rgba(180, 179, 179, 0.281), 0 3px 10px 0 rgba(0, 0, 0, 0.123);
+        text-align: center;
+        padding: 10px;
+        margin-top: 25% !important;
+        margin-left: 25% !important;
+           
+        
+        }
+
+    
+    
+    .menu-push{
+    
+        margin-left: inherit !important;
+        
+        }
+    
+    
+    
+    
+    
+    
+    }
+    
+
+
+
+/* end */
+
+
+
+
+/* baked icons */
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v41/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+  }
+  
+  .baked-icon {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+ -webkit-font-smoothing: antialiased;
+  }
+
+  /* end */
+
+
+
+
+  /* baked  css styles to fix image bugs {for meduim width & height images} */
+
+
+.baked-img-fit{
+
+width: 2500px;
+height:auto;
+
+
+}
+
+
+
+
+
+
+  /* ends here */
+
+
+
+  /* users styles */
+
+  .baked-quote{
+
+
+color: grey;
+font-size: 15.5px;
+font-weight: bolder;
+font-family:inherit;
+letter-spacing: 2px;
+padding: 100px 100px 30px 100px;
+
+  }
+
+
+  .baked-wide2 {
+    width: 100%;
+    margin-top :-16px;
+    
+
+}
+
+.fancy-btn-1:hover{
+
+background-color: blueviolet;
+
+
+}
+
+
+  
+/* Code Styles */
+
+
+
+
+    /* css atrrib for academy page */
+
+    .svg{
+
+        width: 100px !important;
+        height: 100px !important;
+        
+        
+            }
+
+
+
+.svg2{
+
+    width: 100%;
+    
+    
+    }
+    
+    
+       
+    /* remember
+        
+    .target:nth-of-type(2){
+
+display: flex;
+
+
+    }
+
+    */
+
+    
+
+
+
+
